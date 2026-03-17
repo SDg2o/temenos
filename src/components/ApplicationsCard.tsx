@@ -32,10 +32,10 @@ export default function ApplicationsCard() {
           <button
             key={tab.id}
             onClick={() => setActiveTab(tab.id)}
-            className={`flex-1 flex flex-col items-center justify-center px-5 h-[60px] cursor-pointer transition-colors ${
+            className={`flex-1 flex flex-col items-center justify-center px-5 h-[60px] cursor-pointer transition-colors hover:bg-gray-100 ${
               activeTab === tab.id
-                ? 'border-b-[5px] border-fnb-blue bg-white'
-                : 'hover:bg-gray-100'
+                ? 'border-b-[5px] border-fnb-blue'
+                : ''
             }`}
           >
             <span className={`font-roboto text-base leading-5 text-fnb-dark-gray ${activeTab === tab.id ? 'font-bold' : ''}`}>

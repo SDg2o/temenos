@@ -35,7 +35,7 @@ export default function UserBar({
           <span className="font-bold text-sm">Branch</span>
           <select
             defaultValue={selectedBranch}
-            className="bg-white rounded-lg px-4 py-2 text-[#444] font-figtree text-sm shadow-[inset_2px_3px_6px_0px_rgba(0,0,0,0.1)] outline-none appearance-none pr-8 cursor-pointer"
+            className="bg-white rounded-lg px-4 py-2 text-[#444] font-figtree text-sm shadow-[inset_2px_3px_6px_0px_rgba(0,0,0,0.1)] outline-none appearance-none pr-8 cursor-pointer hover:bg-gray-100 transition-colors"
             style={{
               backgroundImage: `url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1.5L6 6.5L11 1.5' stroke='%23686868' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E")`,
               backgroundRepeat: 'no-repeat',

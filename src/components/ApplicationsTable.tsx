@@ -42,7 +42,7 @@ export default function ApplicationsTable({ data }: ApplicationsTableProps) {
         </thead>
         <tbody>
           {data.map((row, i) => (
-            <tr key={i} className="h-[60px] hover:bg-gray-50 cursor-pointer transition-colors">
+            <tr key={i} className="h-[60px] hover:bg-gray-200/60 cursor-pointer transition-colors">
               {columns.map((col) => (
                 <td key={col.key} className={`px-4 ${col.pl ?? ''} py-3 font-roboto text-sm text-fnb-text leading-[18px]`}>
                   {row[col.key]}

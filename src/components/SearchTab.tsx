@@ -44,7 +44,7 @@ export default function SearchTab() {
         <div className="relative w-[155px]">
           <button
             onClick={() => setShowDropdown(!showDropdown)}
-            className="bg-white rounded-[10px] px-6 py-2.5 w-full flex items-center justify-between shadow-[inset_4px_6px_8px_0px_rgba(0,0,0,0.12)]"
+            className="bg-white rounded-[10px] px-6 py-2.5 w-full flex items-center justify-between shadow-[inset_4px_6px_8px_0px_rgba(0,0,0,0.12)] hover:bg-gray-50 transition-colors"
           >
             <span className="font-figtree font-medium text-base text-[#686868] leading-[26px]">{searchType}</span>
             <svg width="19" height="18" viewBox="0 0 19 18" fill="none">
@@ -79,8 +79,7 @@ export default function SearchTab() {
 
         <button
           onClick={handleSearch}
-          className="text-white font-figtree font-bold text-base px-5 py-2.5 rounded border border-fnb-dark-blue w-[270px] h-[40px] flex items-center justify-center"
-          style={{ backgroundImage: 'linear-gradient(90deg, #00387A 6%, #00B8E0 143%)' }}
+          className="btn-gradient text-white font-figtree font-bold text-base px-5 py-2.5 rounded border border-fnb-dark-blue w-[270px] h-[40px] flex items-center justify-center"
         >
           Search Applications
         </button>
