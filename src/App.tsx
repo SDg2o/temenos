@@ -14,7 +14,7 @@ function App() {
         branches={['Downtown Pittsburgh', 'North Hills Branch', 'South Side Branch']}
         selectedBranch="Downtown Pittsburgh"
       />
-      <main className="flex flex-col gap-10 flex-1 page-x py-8">
+      <main className="flex flex-col gap-10 flex-1 page-x pt-8 pb-24">
         <div className="flex justify-end">
           <button className="btn-gradient text-white font-figtree font-bold text-base px-5 py-2.5 rounded border border-fnb-dark-blue">
             Start New Application
